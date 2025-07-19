@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 
 export default function App() {
   const [tasks, setTasks] = useState([]);
-  const [input, setInput] = useState("");
+  const [input, setInput] = useState(""); 
 
   const addTask = () => {
     if (input.trim() !== "") {
