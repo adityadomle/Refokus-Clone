@@ -1,13 +1,38 @@
-# React + Vite
+# 🌸 Pink Task List – React + Tailwind
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean, vibrant **Task List App** built using **React** and **Tailwind CSS**, featuring a stylish pink UI and task completion functionality.
 
-Currently, two official plugins are available:
+![App Screenshot](/src/assets/Screenshot%202025-07-20%20021028.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Live Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
- 
+🔗 [View Live App](https://itask-xpro.vercel.app/)
+
+---
+
+## ✨ Features
+
+- ✅ Add and complete tasks
+- 🌈 Pink-themed, animated UI
+- 💅 Stylish fonts and responsive design
+- ⚛️ Built with React + Tailwind CSS
+
+---
+
+## 🛠️ Tech Stack
+
+- React
+- Tailwind CSS
+- Vite
+
+---
+
+## 🧑‍💻 Run Locally
+
+```bash
+git clone https://github.com/adityadomle/task-list-app.git
+cd task-list-app
+npm install
+npm run dev
