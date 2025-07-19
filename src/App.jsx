@@ -1,23 +1,12 @@
-import React from "react";
-import Card from "./Components/Card";
+import React from 'react'
+import Navbar from './Components/Navbar'
 
-function App(){
-
-  const data = ["khushi", "Aditya", "Anu"];
-
+function App() {
   return (
-    <div>
-      {data.map((elem, index)=>(
-        <div className="px-3 py-4 bg-red-300 rounded-md w-fit">
-          {elem}
-
-      </div>))}
-
-      </div>
-    
-  );
+    <div className='w-full h-screen bg-zinc-900 text-white'>
+      <Navbar />
+    </div>
+  )
 }
 
-
-
-export default  App;
+export default App
